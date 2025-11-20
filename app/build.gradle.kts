@@ -22,7 +22,14 @@ android {
             )
         }
     }
-    buildFeatures { viewBinding = true }
+
+    buildFeatures {
+        viewBinding = true
+        dataBinding = false   // ⬅️ 명시적으로 OFF
+    }
+}
+
+
 }
 dependencies {
     implementation("androidx.core:core-ktx:1.13.1")
