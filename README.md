@@ -1,0 +1,1 @@
+# Android Storage Benchmark (Minimal, no NDK)\n\nBuilds on GitHub Actions and shows a chart with 3 demo runs.\n
